@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.js">
+  <title>Meu Portfólio</title>
+  <title>Menu de Navegação Animado</title>
+  <title>Pula-Pula Game</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">DGX</div>
+      <ul>
+        <li><a href="#">Página Inicial</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5551986590761">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1><link>Doodley</link></h1>
+      <p><link>My word</link></p>
+      <!-- Demais conteúdos aqui -->
+    </section>
+    
+  </main>
+  <div class="album">
+    <img src="x0.jpg" alt="Descrição da Imagem 1">
+    <img src="x1.jpg" alt="Descrição da Imagem 2">
+    <img src="x2.jpg" alt="Descrição da Imagem 3">
+    <img src="x3.jpg" alt="Descrição da Imagem 4">
+    <img src="x4.jpg" alt="Descrição da Imagem 5">
+    <img src="x5.jpg" alt="Descrição da Imagem 6">
+    <img src="x6.jpg" alt="Descrição da Imagem 7">
+    <img src="x7.jpg" alt="Descrição da Imagem 8">
+    <img src="x8.jpg" alt="Descrição da Imagem 9">
+    <img src="x9.jpg" alt="Descrição da Imagem 2">
+    <img src="x10.jpg" alt="Descrição da Imagem 3">
+    <img src="x11.jpg" alt="Descrição da Imagem 4">
+    <img src="x12.jpg" alt="Descrição da Imagem 5">
+    <img src="x13.jpg" alt="Descrição da Imagem 6">
+    <img src="x14.jpg" alt="Descrição da Imagem 7">
+    <img src="x15.jpg" alt="Descrição da Imagem 8">
+    <img src="x17.jpg" alt="Descrição da Imagem 9">
+    <img src="x18.jpg" alt="Descrição da Imagem 2">
+    <img src="x19.jpg" alt="Descrição da Imagem 3">
+    
+    <!-- Adicione mais imagens aqui -->
+  </div>
+  <div class="album">
+    <div class="image-container">
+      <img src="x0.jpg" alt="Imagem 1">
+      <div class="overlay">
+        <h3>x0</h3>
+        <p>XXXtentacion</p>
+      </div>
+    </div>
+    <!-- Adicione mais divs de image-container para cada imagem -->
+  </div>
+  <footer>
+    <div class="footer-content">
+      <p>© 2023 Meu Doodley</p>
+      <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="+5551986590761">Contato</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="styles.js"></script>
+  <script>
+    // Adiciona transições suaves ao passar o mouse sobre as imagens
+const albumImgs = document.querySelectorAll('.album img');
+
+albumImgs.forEach(img => {
+  img.addEventListener('mouseenter', function() {
+    this.style.opacity = '0.7';
+    this.style.transform = 'scale(1.1)';
+    this.style.transition = 'opacity 0.3s, transform 0.3s';
+  });
+
+  img.addEventListener('mouseleave', function() {
+    this.style.opacity = '1';
+    this.style.transform = 'scale(1)';
+  });
+});
+
+// Adiciona animações ao menu de navegação
+const menuItems = document.querySelectorAll('.menu-item');
+
+menuItems.forEach(item => {
+  item.addEventListener('mouseenter', function() {
+    this.style.transform = 'scale(1.1)';
+    this.style.transition = 'transform 0.3s';
+  });
+
+  item.addEventListener('mouseleave', function() {
+    this.style.transform = 'scale(1)';
+  });
+});
+
+AOS.init({
+  duration: 800, // Duração da animação
+  easing: 'ease', // Curva de animação
+  once: true // Apenas animar uma vez
+});
+
+// Adiciona validação interativa aos formulários
+const form = document.querySelector('form');
+
+form.addEventListener('input', function(event) {
+  const input = event.target;
+  if (input.validity.valid) {
+    input.classList.remove('invalid');
+  } else {
+    input.classList.add('invalid');
+  }
+});
+  </script>
+</body>
+</html>

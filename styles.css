@@ -1,0 +1,244 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+  body {
+  background-image: url('XXXTentacion-Logo.png');
+  background-size: cover;
+  background-position: center;
+  /* Isso garantirá que a imagem cubra todo o elemento, mantendo sua proporção e centralizando-a */
+}
+header{
+  background-image: url('XXXTentacion_-_SKINS_2.png');
+  background-size: cover;
+  background-position: center;
+  /* Isso garantirá que a imagem cubra todo o cabeçalho, mantendo sua proporção e centralizando-a */
+}
+/* Estilos para a imagem de fundo */
+.main-background {
+  background-image: url('xxxtentacion.jpg');
+  background-size: cover; /* Garante que a imagem cubra todo o elemento */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Ajusta a altura para ocupar toda a altura da tela */
+  transform: rotate(90deg); /* Gira a imagem 90 graus no sentido horário */
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: #46464600;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.album img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.album img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.album img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.album img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px; /* <link>Bordas arredondadas</link> */
+  opacity: 0.7; /* <link>Efeito de escurecimento inicial</link> */
+}
+.album img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+.image-container img {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Sobreposição semi-transparente */
+  color: rgb(250, 241, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.image-container:hover img {
+  transform: scale(1.1);
+  filter: grayscale(100%); /* Efeito de escala de cinza */
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+}
+.footer-content ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.footer-content ul li {
+  display: inline;
+}
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 18px;
+}
+.footer-content ul li a:hover {
+  color: #0089e4; /* Cor ao passar o mouse */
+  text-decoration: underline;
+}
+/* Estilos para o header */
+header {
+  background-color: #f2f2f2; /* Cor de fundo */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhar o conteúdo no centro */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicionar uma sombra sutil */
+}
+/* Estilos para o logo */
+logo {
+  font-size: 36px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  text-transform: uppercase; /* Transformar o texto em maiúsculas */
+}
+/* Estilos para a navegação */
+nav {
+  margin-top: 20px; /* Espaçamento superior */
+}
+ul {
+  list-style: none; /* Remover marcadores da lista */
+  padding: 0; /* Remover o espaçamento interno */
+  display: flex; /* Exibir os itens em linha */
+  justify-content: center; /* Centralizar os itens */
+}
+ul li {
+  margin: 0 15px; /* Espaçamento entre os itens */
+}
+ul li a {
+  text-decoration: none; /* Remover sublinhado dos links */
+  color: #333; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+  transition: color 0.3s; /* Adicionar transição suave de cor ao passar o mouse */
+}
+ul li a:hover {
+  color: #30cc11; /* Mudar a cor ao passar o mouse */
+}
+/* Estilos para a seção principal */
+main {
+  padding: 50px; /* Adiciona um espaçamento interno generoso */
+  text-align: center; /* Alinha o conteúdo ao centro */
+  background-color: #f8f8f8; /* Adiciona uma cor de fundo suave */
+  font-family: Arial, sans-serif; /* Escolhe uma fonte legível */
+}
+h1 {
+  font-size: 36px; /* Tamanho grande para o título principal */
+  color: #333; /* Cor escura para o texto */
+  margin-bottom: 20px; /* Espaçamento inferior para separar do conteúdo abaixo */
+}
+p {
+  font-size: 18px; /* Tamanho do texto do parágrafo */
+  line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+  color: #666; /* Cor mais escura para o texto */
+}
+.btn {
+  display: inline-block; /* Torna o botão um bloco para aceitar margens */
+  padding: 10px 20px; /* Adiciona espaçamento interno generoso */
+  background-color: #15ff00; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  text-decoration: none; /* Remove sublinhado do link */
+  border-radius: 5px; /* Adiciona cantos arredondados */
+  transition: background-color 0.3s; /* Adiciona uma transição suave de cor ao passar o mouse */
+}
+.btn:hover {
+  background-color: #26e600; /* Cor de fundo alterada ao passar o mouse */
+}
+  #meuHeader {
+  background-image: url('x16.jpg');
+  background-size: cover; /* Para cobrir todo o cabeçalho com a imagem */
+  background-position: center; /* Para centralizar a imagem no cabeçalho */
+  /* Adicione outras propriedades de estilo conforme necessário */
+}
+/* Estilo para o título h1 */
+h1 {
+  font-size: 24px;
+  color: #333; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado padrão do link */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  font-family: Arial, sans-serif; /* Fonte sans-serif genérica */
+}
+
+/* Estilo para o parágrafo p */
+p {
+  font-size: 16px;
+  color: #666; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  line-height: 1.6; /* Altura da linha para melhor legibilidade */
+}
+/* Estilo para o link */
+a{
+  color: #2e86de; /* Cor do link azul */
+  text-decoration: none; /* Remove sublinhado padrão */
+  transition: color 0.3s ease; /* Adiciona transição suave à cor do link */
+}
+a:hover {
+  color: #c0392b; /* Cor do link ao passar o mouse (vermelho) */
+}
